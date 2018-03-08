@@ -8,15 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		03CA77FD66FF762088AE65CA /* Pods_BigmarkerRoom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22727CAA4F7C93A66C6280D7 /* Pods_BigmarkerRoom.framework */; };
+		201CD0BF2051817C0091E4D3 /* BMroomSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201CD0BE2051817C0091E4D3 /* BMroomSDK.framework */; };
 		20508C39205114B2007B7BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20508C38205114B2007B7BAF /* AppDelegate.swift */; };
 		20508C3B205114B2007B7BAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20508C3A205114B2007B7BAF /* ViewController.swift */; };
 		20508C3E205114B2007B7BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20508C3C205114B2007B7BAF /* Main.storyboard */; };
 		20508C40205114B2007B7BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20508C3F205114B2007B7BAF /* Assets.xcassets */; };
 		20508C43205114B2007B7BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20508C41205114B2007B7BAF /* LaunchScreen.storyboard */; };
-		20508C4D20512B91007B7BAF /* BMroomSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20508C4C20512B91007B7BAF /* BMroomSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20095CA5205186250082CFEE /* Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
+		201CD0BE2051817C0091E4D3 /* BMroomSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BMroomSDK.framework; sourceTree = "<group>"; };
 		20508C35205114B2007B7BAF /* BigmarkerRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigmarkerRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20508C38205114B2007B7BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20508C3A205114B2007B7BAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,7 +26,6 @@
 		20508C3F205114B2007B7BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20508C42205114B2007B7BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20508C44205114B2007B7BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20508C4C20512B91007B7BAF /* BMroomSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BMroomSDK.framework; sourceTree = "<group>"; };
 		22727CAA4F7C93A66C6280D7 /* Pods_BigmarkerRoom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigmarkerRoom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82ECDE6870FEBFA490BA99E7 /* Pods-BigmarkerRoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigmarkerRoom.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigmarkerRoom/Pods-BigmarkerRoom.release.xcconfig"; sourceTree = "<group>"; };
 		8365C72000434A930169BCC8 /* Pods-BigmarkerRoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigmarkerRoom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigmarkerRoom/Pods-BigmarkerRoom.debug.xcconfig"; sourceTree = "<group>"; };
@@ -36,7 +37,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03CA77FD66FF762088AE65CA /* Pods_BigmarkerRoom.framework in Frameworks */,
-				20508C4D20512B91007B7BAF /* BMroomSDK.framework in Frameworks */,
+				201CD0BF2051817C0091E4D3 /* BMroomSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +75,7 @@
 		20508C37205114B2007B7BAF /* BigmarkerRoom */ = {
 			isa = PBXGroup;
 			children = (
+				20095CA5205186250082CFEE /* Bridge-Header.h */,
 				20508C38205114B2007B7BAF /* AppDelegate.swift */,
 				20508C3A205114B2007B7BAF /* ViewController.swift */,
 				20508C3C205114B2007B7BAF /* Main.storyboard */,
@@ -87,7 +89,7 @@
 		20508C4B20512B86007B7BAF /* SDK */ = {
 			isa = PBXGroup;
 			children = (
-				20508C4C20512B91007B7BAF /* BMroomSDK.framework */,
+				201CD0BE2051817C0091E4D3 /* BMroomSDK.framework */,
 			);
 			name = SDK;
 			sourceTree = "<group>";
@@ -359,6 +361,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bigmarker.BigmarkerRoom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BigmarkerRoom/Bridge-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -378,6 +381,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bigmarker.BigmarkerRoom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BigmarkerRoom/Bridge-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
