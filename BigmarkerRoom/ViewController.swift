@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import BMroomSDK
+
 
 class ViewController: UIViewController {
 

@@ -10,11 +10,12 @@ s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'HanQing' => 'qing.han@bigmarker.com' }
 s.source           = { :git => 'git@github.com:hanqingqingmomo/BigmarkerRoom.git', :tag => s.version.to_s }
 
-s.frameworks    = 'UIKit','AVFoundation'
+s.frameworks    = 'UIKit','AVFoundation','Foundation'
+
 
 
 s.ios.deployment_target = '9.0'
-s.source_files = 'BigmarkerRoom/*.swift'
+s.source_files = 'BigmarkerRoom/ViewController.swift'
 
 
 end
