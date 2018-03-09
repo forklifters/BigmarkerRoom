@@ -13,8 +13,7 @@ class BMViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let id = CurrentUser.name()
-        print(id)
+        print("aaaaaaaaa")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
