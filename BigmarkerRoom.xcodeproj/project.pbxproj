@@ -8,48 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		03CA77FD66FF762088AE65CA /* Pods_BigmarkerRoom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22727CAA4F7C93A66C6280D7 /* Pods_BigmarkerRoom.framework */; };
-		20095CB1205187560082CFEE /* MemberModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20095CA9205187560082CFEE /* MemberModel.swift */; };
-		20095CB2205187560082CFEE /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20095CAA205187560082CFEE /* Channel.swift */; };
-		20095CB3205187560082CFEE /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20095CAB205187560082CFEE /* CurrentUser.swift */; };
-		20095CB4205187560082CFEE /* VideoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20095CAC205187560082CFEE /* VideoInfo.swift */; };
-		20095CB5205187560082CFEE /* VideoUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20095CAD205187560082CFEE /* VideoUserInfo.swift */; };
-		20095CB6205187560082CFEE /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20095CAE205187560082CFEE /* Message.swift */; };
-		20095CB7205187560082CFEE /* Conference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20095CAF205187560082CFEE /* Conference.swift */; };
-		20095CB8205187560082CFEE /* BigRoomBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20095CB0205187560082CFEE /* BigRoomBase.swift */; };
-		20095CBE205187650082CFEE /* UIImageExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20095CBA205187650082CFEE /* UIImageExt.swift */; };
-		20095CBF205187650082CFEE /* ArrayExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20095CBB205187650082CFEE /* ArrayExt.swift */; };
-		20095CC0205187650082CFEE /* ToolHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20095CBC205187650082CFEE /* ToolHelper.swift */; };
-		20095CC1205187650082CFEE /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20095CBD205187650082CFEE /* Constant.swift */; };
 		201CD0BF2051817C0091E4D3 /* BMroomSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201CD0BE2051817C0091E4D3 /* BMroomSDK.framework */; };
 		20508C39205114B2007B7BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20508C38205114B2007B7BAF /* AppDelegate.swift */; };
-		20508C3B205114B2007B7BAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20508C3A205114B2007B7BAF /* ViewController.swift */; };
 		20508C3E205114B2007B7BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20508C3C205114B2007B7BAF /* Main.storyboard */; };
 		20508C40205114B2007B7BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20508C3F205114B2007B7BAF /* Assets.xcassets */; };
 		20508C43205114B2007B7BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20508C41205114B2007B7BAF /* LaunchScreen.storyboard */; };
+		20D13DE420526B7F003F5253 /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D13DE220526B7F003F5253 /* CurrentUser.swift */; };
+		20D13DE520526B7F003F5253 /* BMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D13DE320526B7F003F5253 /* BMViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		20095CA5205186250082CFEE /* Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
-		20095CA9205187560082CFEE /* MemberModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberModel.swift; sourceTree = "<group>"; };
-		20095CAA205187560082CFEE /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
-		20095CAB205187560082CFEE /* CurrentUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
-		20095CAC205187560082CFEE /* VideoInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoInfo.swift; sourceTree = "<group>"; };
-		20095CAD205187560082CFEE /* VideoUserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoUserInfo.swift; sourceTree = "<group>"; };
-		20095CAE205187560082CFEE /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
-		20095CAF205187560082CFEE /* Conference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conference.swift; sourceTree = "<group>"; };
-		20095CB0205187560082CFEE /* BigRoomBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigRoomBase.swift; sourceTree = "<group>"; };
-		20095CBA205187650082CFEE /* UIImageExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExt.swift; sourceTree = "<group>"; };
-		20095CBB205187650082CFEE /* ArrayExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExt.swift; sourceTree = "<group>"; };
-		20095CBC205187650082CFEE /* ToolHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolHelper.swift; sourceTree = "<group>"; };
-		20095CBD205187650082CFEE /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		201CD0BE2051817C0091E4D3 /* BMroomSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BMroomSDK.framework; sourceTree = "<group>"; };
 		20508C35205114B2007B7BAF /* BigmarkerRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigmarkerRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20508C38205114B2007B7BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20508C3A205114B2007B7BAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20508C3D205114B2007B7BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20508C3F205114B2007B7BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20508C42205114B2007B7BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20508C44205114B2007B7BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20D13DE220526B7F003F5253 /* CurrentUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CurrentUser.swift; path = BigmarkerRoom/classes/CurrentUser.swift; sourceTree = "<group>"; };
+		20D13DE320526B7F003F5253 /* BMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BMViewController.swift; path = BigmarkerRoom/classes/BMViewController.swift; sourceTree = "<group>"; };
 		22727CAA4F7C93A66C6280D7 /* Pods_BigmarkerRoom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigmarkerRoom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82ECDE6870FEBFA490BA99E7 /* Pods-BigmarkerRoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigmarkerRoom.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigmarkerRoom/Pods-BigmarkerRoom.release.xcconfig"; sourceTree = "<group>"; };
 		8365C72000434A930169BCC8 /* Pods-BigmarkerRoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigmarkerRoom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigmarkerRoom/Pods-BigmarkerRoom.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,14 +72,6 @@
 		20095CA82051874A0082CFEE /* model */ = {
 			isa = PBXGroup;
 			children = (
-				20095CA9205187560082CFEE /* MemberModel.swift */,
-				20095CAA205187560082CFEE /* Channel.swift */,
-				20095CAB205187560082CFEE /* CurrentUser.swift */,
-				20095CAC205187560082CFEE /* VideoInfo.swift */,
-				20095CAD205187560082CFEE /* VideoUserInfo.swift */,
-				20095CAE205187560082CFEE /* Message.swift */,
-				20095CAF205187560082CFEE /* Conference.swift */,
-				20095CB0205187560082CFEE /* BigRoomBase.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -109,10 +79,6 @@
 		20095CB92051875C0082CFEE /* tools */ = {
 			isa = PBXGroup;
 			children = (
-				20095CBA205187650082CFEE /* UIImageExt.swift */,
-				20095CBB205187650082CFEE /* ArrayExt.swift */,
-				20095CBC205187650082CFEE /* ToolHelper.swift */,
-				20095CBD205187650082CFEE /* Constant.swift */,
 			);
 			name = tools;
 			sourceTree = "<group>";
@@ -120,6 +86,7 @@
 		20508C2C205114B2007B7BAF = {
 			isa = PBXGroup;
 			children = (
+				20D13DE1205269CD003F5253 /* classes */,
 				20508C4B20512B86007B7BAF /* SDK */,
 				20508C37205114B2007B7BAF /* BigmarkerRoom */,
 				20508C36205114B2007B7BAF /* Products */,
@@ -139,13 +106,12 @@
 		20508C37205114B2007B7BAF /* BigmarkerRoom */ = {
 			isa = PBXGroup;
 			children = (
-				20095CB92051875C0082CFEE /* tools */,
 				20095CA82051874A0082CFEE /* model */,
+				20095CB92051875C0082CFEE /* tools */,
 				20095CA7205187440082CFEE /* controller */,
 				20095CA62051873F0082CFEE /* view */,
 				20095CA5205186250082CFEE /* Bridge-Header.h */,
 				20508C38205114B2007B7BAF /* AppDelegate.swift */,
-				20508C3A205114B2007B7BAF /* ViewController.swift */,
 				20508C3C205114B2007B7BAF /* Main.storyboard */,
 				20508C3F205114B2007B7BAF /* Assets.xcassets */,
 				20508C41205114B2007B7BAF /* LaunchScreen.storyboard */,
@@ -160,6 +126,15 @@
 				201CD0BE2051817C0091E4D3 /* BMroomSDK.framework */,
 			);
 			name = SDK;
+			sourceTree = "<group>";
+		};
+		20D13DE1205269CD003F5253 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				20D13DE220526B7F003F5253 /* CurrentUser.swift */,
+				20D13DE320526B7F003F5253 /* BMViewController.swift */,
+			);
+			name = classes;
 			sourceTree = "<group>";
 		};
 		9A3E6AB716B040CF0184E85B /* Frameworks */ = {
@@ -294,20 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20095CB7205187560082CFEE /* Conference.swift in Sources */,
-				20095CB3205187560082CFEE /* CurrentUser.swift in Sources */,
-				20508C3B205114B2007B7BAF /* ViewController.swift in Sources */,
-				20095CB2205187560082CFEE /* Channel.swift in Sources */,
-				20095CB4205187560082CFEE /* VideoInfo.swift in Sources */,
-				20095CBF205187650082CFEE /* ArrayExt.swift in Sources */,
-				20095CC0205187650082CFEE /* ToolHelper.swift in Sources */,
-				20095CC1205187650082CFEE /* Constant.swift in Sources */,
-				20095CB5205187560082CFEE /* VideoUserInfo.swift in Sources */,
-				20095CB6205187560082CFEE /* Message.swift in Sources */,
-				20095CB1205187560082CFEE /* MemberModel.swift in Sources */,
-				20095CB8205187560082CFEE /* BigRoomBase.swift in Sources */,
+				20D13DE520526B7F003F5253 /* BMViewController.swift in Sources */,
 				20508C39205114B2007B7BAF /* AppDelegate.swift in Sources */,
-				20095CBE205187650082CFEE /* UIImageExt.swift in Sources */,
+				20D13DE420526B7F003F5253 /* CurrentUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,11 +9,11 @@
 import UIKit
 
 
-class ViewController: UIViewController {
+class BMViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let id = CurrentUser.obfuscatedId()
+        let id = CurrentUser.name()
         print(id)
         // Do any additional setup after loading the view, typically from a nib.
     }
