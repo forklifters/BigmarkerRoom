@@ -13,6 +13,7 @@ class CurrentUser: NSObject {
 
     class func name() -> String {
       print("=============")
+      return "1111"
     }
     
     
