@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'BigmarkerRoom'
-s.version          = '0.1.9'
+s.version          = '0.2.0'
 s.summary          = 'test test test'
 
 s.description      = 'pod lib lintpod lib lintpod lib lintpod lib lint'
