@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'BigmarkerRoom'
-s.version          = '0.1.7'
+s.version          = '0.1.8'
 s.summary          = 'test test test'
 
 s.description      = 'pod lib lintpod lib lintpod lib lintpod lib lint'
@@ -15,6 +15,6 @@ s.frameworks    = 'UIKit','AVFoundation','Foundation'
 
 
 s.ios.deployment_target = '9.0'
-s.source_files = 'BigmarkerRoom/CurrentUser.swift','BigmarkerRoom/BMViewController.swift'
+s.source_files = 'BigmarkerRoom/classes/*.swift'
 
 end

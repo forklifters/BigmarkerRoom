@@ -12,12 +12,7 @@ class CurrentUser: NSObject {
     
 
     class func name() -> String {
-        let prefs:UserDefaults = UserDefaults.standard
-        if let username = prefs.object(forKey: "USERNAME") as? String {
-            return username
-        } else {
-            return ""
-        }
+      print("=============")
     }
     
     
