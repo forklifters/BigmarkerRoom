@@ -13,6 +13,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let id = CurrentUser.obfuscatedId()
+        print(id)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
