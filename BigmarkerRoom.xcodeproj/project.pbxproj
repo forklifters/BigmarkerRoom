@@ -13,8 +13,7 @@
 		20508C3E205114B2007B7BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20508C3C205114B2007B7BAF /* Main.storyboard */; };
 		20508C40205114B2007B7BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20508C3F205114B2007B7BAF /* Assets.xcassets */; };
 		20508C43205114B2007B7BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20508C41205114B2007B7BAF /* LaunchScreen.storyboard */; };
-		20D13DE420526B7F003F5253 /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D13DE220526B7F003F5253 /* CurrentUser.swift */; };
-		20D13DE520526B7F003F5253 /* BMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D13DE320526B7F003F5253 /* BMViewController.swift */; };
+		208458CE2055770100BFF693 /* BMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208458CD2055770100BFF693 /* BMViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +25,7 @@
 		20508C3F205114B2007B7BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20508C42205114B2007B7BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20508C44205114B2007B7BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20D13DE220526B7F003F5253 /* CurrentUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CurrentUser.swift; path = BigmarkerRoom/classes/CurrentUser.swift; sourceTree = "<group>"; };
-		20D13DE320526B7F003F5253 /* BMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BMViewController.swift; path = classes/BMViewController.swift; sourceTree = "<group>"; };
+		208458CD2055770100BFF693 /* BMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BMViewController.swift; path = BigmarkerRoom/BMViewController.swift; sourceTree = "<group>"; };
 		22727CAA4F7C93A66C6280D7 /* Pods_BigmarkerRoom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigmarkerRoom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82ECDE6870FEBFA490BA99E7 /* Pods-BigmarkerRoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigmarkerRoom.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigmarkerRoom/Pods-BigmarkerRoom.release.xcconfig"; sourceTree = "<group>"; };
 		8365C72000434A930169BCC8 /* Pods-BigmarkerRoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigmarkerRoom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigmarkerRoom/Pods-BigmarkerRoom.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,7 +84,7 @@
 		20508C2C205114B2007B7BAF = {
 			isa = PBXGroup;
 			children = (
-				20D13DE1205269CD003F5253 /* classes */,
+				208458CD2055770100BFF693 /* BMViewController.swift */,
 				20508C4B20512B86007B7BAF /* SDK */,
 				20508C37205114B2007B7BAF /* BigmarkerRoom */,
 				20508C36205114B2007B7BAF /* Products */,
@@ -115,7 +113,6 @@
 				20508C3C205114B2007B7BAF /* Main.storyboard */,
 				20508C3F205114B2007B7BAF /* Assets.xcassets */,
 				20508C41205114B2007B7BAF /* LaunchScreen.storyboard */,
-				20D13DE320526B7F003F5253 /* BMViewController.swift */,
 				20508C44205114B2007B7BAF /* Info.plist */,
 			);
 			path = BigmarkerRoom;
@@ -127,14 +124,6 @@
 				201CD0BE2051817C0091E4D3 /* BMroomSDK.framework */,
 			);
 			name = SDK;
-			sourceTree = "<group>";
-		};
-		20D13DE1205269CD003F5253 /* classes */ = {
-			isa = PBXGroup;
-			children = (
-				20D13DE220526B7F003F5253 /* CurrentUser.swift */,
-			);
-			name = classes;
 			sourceTree = "<group>";
 		};
 		9A3E6AB716B040CF0184E85B /* Frameworks */ = {
@@ -269,9 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20D13DE520526B7F003F5253 /* BMViewController.swift in Sources */,
 				20508C39205114B2007B7BAF /* AppDelegate.swift in Sources */,
-				20D13DE420526B7F003F5253 /* CurrentUser.swift in Sources */,
+				208458CE2055770100BFF693 /* BMViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
